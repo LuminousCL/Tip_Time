@@ -44,3 +44,9 @@ binding.button.setOnClickListener {
 <br>
 
 3.写明计算小费的方法 calculateTip()
+得到输入的金额转化为成本cost
+根据选择的按钮获取百分比
+小费 = 成本 * 百分比 (tip = cost * tipPercentage)
+四舍五入或取整数roundUp
+展示小费的金额
+隐藏键盘
