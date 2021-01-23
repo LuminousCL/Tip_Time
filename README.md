@@ -15,7 +15,7 @@
 <br>
 
 ### 步骤
-1. 绑定对象实例，可以访问xml的视图
+1. 绑定对象实例，可以访问xml的视图  
 `private lateinit var binding: ActivityMainBinding`
 
 <br>
@@ -24,7 +24,7 @@
 
 <br>
 
-初始化binding用于访问xml的UI元件（View对象）
+初始化binding用于访问xml的UI元件（View对象）  
 `binding = ActivityMainBinding.inflate(layoutInflater)`
 
 <br>
