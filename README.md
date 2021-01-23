@@ -8,12 +8,16 @@
 <br>
 ### 结构
 仅用MainActivity写逻辑声明
+
 <br>
 <br>
+
 ### 步骤
 1. 绑定对象实例，可以访问xml的视图
 `private lateinit var binding: ActivityMainBinding`
+
 <br>
+
 2. 重写onCreate方法
 初始化binding用于访问xml的UI元件（View对象）
 `binding = ActivityMainBinding.inflate(layoutInflater)`
@@ -29,4 +33,5 @@ binding.button.setOnClickListener {
 ```
 <br>
 <br>
+
 3.写明计算小费的方法 calculateTip()
